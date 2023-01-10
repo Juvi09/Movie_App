@@ -8,6 +8,27 @@
     height: 100vh;
     background: linear-gradient(#000000 50%, #149414 50%);
   }
+
+  .logo {
+    color: #149414;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0px auto 0px 40px;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    font-size: 0.7rem;
+    margin-left: 5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
   .container {
     font-size: 16px;
     width: 90vw;

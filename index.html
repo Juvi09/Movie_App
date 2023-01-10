@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ! Popins fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+    <!-- ! CSS styles -->
     <link href="style.css" rel="stylesheet"  />
     <title>Movie App</title>
 </head>
 <body>
-    <div class="container">
-       <div class="search-container">
+       <!-- ! logo-->
+       <a href="index.html" class="logo">
+        Movies<span>.hd</span>
+       </a>
+       <div class="container">
+      <!-- ! Search-->
+        <div class="search-container">
         <input type="text" placeholder="Enter movie name here?" id="movie-name" value="Dark Knight"/>
         <button id="search-btn">Search</button>
        </div>
+
+       <!-- ! Out Results-->
        <div id="result"></div>
     </div>
 
